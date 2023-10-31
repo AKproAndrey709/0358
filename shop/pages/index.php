@@ -10,14 +10,12 @@
 				</div>
 				<div class="col-sm-7 col-lg-6 offset-lg-1 pl-4 pl-md-5 pl-lg-0">
 					<div class="hero-banner__content">
-						<h4>Shop is fun</h4>
-						<h1>Browse Our Premium Product</h1>
+						<h4>Покупка в удовольствие</h4>
+						<h1>Наш магазин заботиться о вас</h1>
 						<p>
-							Us which over of signs divide dominion deep fill bring they're
-							meat beho upon own earth without morning over third. Their
-							male dry. They are great appear whose land fly grass.
+							Зарегистрируйтесь сегодня и получите 1000 приветсвенных бонусных баллов.
 						</p>
-						<a class="button button-hero" href="#">Browse Now</a>
+						<a class="button button-hero" href="/register">Регистрация</a>
 					</div>
 				</div>
 			</div>
