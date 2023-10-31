@@ -55,6 +55,17 @@ class User
 	static function authUser($email, $pass)
 	{
 		global $mysqli;
-		return "Авторизация пользователя";
+
+		$email = mb_strtolower(trim($email));
+		$pass = trim($pass);
+
+		$result = $mysqli->query("SELECT * FROM `users` WHERE `email`='$email'");
+		$result = $result->fetch_assoc();
+
+		if (password_verify($pass, $result["pass"])) {
+			echo "Check!";
+		} else {
+			echo "Error!!!";
+		}
 	}
 }
