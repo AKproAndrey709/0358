@@ -35,7 +35,7 @@
 								<a class="nav-link" href="index.html">Главная</a>
 							</li>
 							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop</a>
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Магазин</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item">
 										<a class="nav-link" href="category.html">Shop Category</a>
@@ -55,10 +55,10 @@
 								</ul>
 							</li>
 							<li class="nav-item submenu dropdown">
-								<a href="/blog" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Блог</a>
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Блог</a>
 								<ul class="dropdown-menu">
 									<li class="nav-item">
-										<a class="nav-link" href="#">Blog</a>
+										<a class="nav-link" href="/blog">Blog</a>
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="single-blog.html">Blog Details</a>
@@ -94,7 +94,7 @@
 								</button>
 							</li>
 							<li class="nav-item">
-								<a class="button button-header" href="#">Личный кабинет</a>
+								<a class="button button-header" href="/auth">Вход</a>
 							</li>
 						</ul>
 					</div>
